@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@700&display=swap');
+
+/* ||TABLE OF CONTENTS||
+
+1. typography
+    1. style
+    2. content box center
+    3.left-title-text
+
+2. imgs
+    1.main primeira img
+    2.img esquerda
+    3.cards
+      3.1 cards serviços
+      3.2 cards mobile
+    4.cards arquitetos
+    5.projetos
+    6.double-img-collum
+
+3. components
+    1.footer 
+    2.buttons underlined
+
+*/
+
+
+/* || typography || */
+/* |style| */
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body{
+  width: 100%;
+}
+
+ul, li {
+    text-decoration: none;
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Gayathri', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin: 80px 0 64px 0;
+  }
+  
+h1>span {
+    text-transform: uppercase;
+    font-family: 'Gayathri', sans-serif;
+  }
+  
+h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+p {
+    font-size: 18px;
+}
+
+hr {
+  width: 566px;
+  margin: auto;
+  height: 4px;
+  background-color: black;
+}
+
+/* |content box center| */
+
+.content-box { /* NOME DE .text-center sobre.css*/
+    width: 811px;
+    height: 150px;
+  }
+
+/*left-title-left*/
+
+.left-title-text h1 {
+  text-align: unset;
+  margin-bottom: 26px;
+}
+
+.left-title-text {
+  display: flex;
+  flex-direction: column;
+  width: 843px;
+}
+
+.double-text-vertical {
+  width: 568px;
+  align-self: center;
+}
+
+.double-text-vertical p {
+  padding: 0 0 30px 0;
+}
+
+
+
+/* || box || */
+/* |main| */
+.main {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+.main h1 {/* LEMBRAR DE COLOCAR PARA TEXTO ACOMPANHAR ATÉ A PARTE DEBAIXO DA IMG DO MAIN*/
+    position: absolute;
+    left: 114px;
+    bottom:5vh;
+    margin: 0;
+    text-align: left;
+    color: white;
+}
+
+/*Sliders*/
+
+
+
+.text-title-block-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* |img esquerda| */
+
+.img-esquerda-box p{
+    padding-left: 117px;
+    padding-right: 117px;
+}
+
+.img-esquerda-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 398px;
+}
+
+/* |cards| */
+/* cards serviços */
+.grupo-cards {
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 266px;
+    height: 460px;
+    box-shadow: 1px 10px 10px #DBDBDB ;
+  }
+
+  .card img {
+    width: 217px;
+  }
+  
+  #serviços h2 {
+    text-align: center;
+    margin-bottom: 39px;
+    padding-top: 18px;
+  }
+  
+  #serviços p {
+    text-align: center;
+    margin-top: 62px;
+    margin-bottom: 6px;
+  }
+
+  #card-titulo-menor h2 {
+    margin-bottom: 67px;
+  }
+
+/* cards arquitetos */
+
+/* projetos */
+
+/* |double-img-collum| */
+.double-img-collum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.legenda {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 843px;
+}
+
+.double-img-collum p>span {
+  word-spacing: 40px;
+}
+
+.double-img-collum img {
+  width: 843px;
+  padding: 4px;
+}
+
+.double-img-collum>p {
+  width: 568px;
+  padding-top: 60px;
+}
+
+/* || components || */
+/* |footer| */
+
+#footer {
+  background: black;
+}
+
+#footer p, h3, h4 {
+  color: white;
+}
+
+#footer h2 {
+  font-family: 'Gayathri', sans-serif;
+}
+
+#footer a {
+  position: unset;
+  text-decoration: unset;
+  font-size: 18px;
+}
+
+.paginas-footer a {
+  padding-right: 30px;
+}
+
+.textos-img-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 75px;
+}
+
+/*infos esquerda footer*/
+.infos-esquerda-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.block-sp {
+  display: flex;
+  flex-direction: row;
+  width: 164px;
+  justify-content: space-between;
+  opacity: 75%;
+}
+
+.block-sp-collum p{
+  font-size: 12px;
+}
+
+.vl-menor {
+  border-left: 2px solid white;
+  height: 37px;
+}
+
+
+/*infos direita footer*/
+.infos-direita-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.infos-direita-footer h3 {
+  padding-top: 10px;
+}
+
+/*fale conosco*/
+.fale-conosco {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  height: 280px;
+  align-content: center;
+}
+
+.icones-text {
+  display: flex;
+}
+
+.icones-text img{
+  padding-right: 15px;
+}
+
+.grupo-icones-text {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  align-content: center;
+  opacity: 75%;
+}
+
+.celulares {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  align-content: center;
+}
+
+.title-celulares {
+  opacity: 75%;
+}
+
+/*icon-btn*/
+
+
+/*linha vertical maior*/
+.vl-maior {
+  border-left: 3px solid white;
+  height: 308px;
+  margin: 0px 30px;
+  opacity: 75%;
+}
+
+/*colaboradores*/
+
+.colaboradores h3 {
+  padding: 0 0 37px 0;
+}
+
+.info-colaborador {
+  display: flex;
+  flex-direction: row;
+
+}
+.logo-colaborador {
+  padding-right: 15px;
+}
+
+.logo-colaborador img {
+  width: 28px;
+}
+
+.sem-logo-colaborador {
+  width: 43px;
+}
+.text-colaborador p>span {
+  word-spacing: 15px;
+}
+
+.text-colaborador p{
+  padding-bottom: 10px;
+}
+
+.text-colaborador img {
+  padding:0 10px 20px 0;
+}
+
+.grupo-colaboradores {
+  opacity: 75%;
+}
+
+/* |buttons underlined| */
+
+a, a:visited {
+    appearance: none;
+    text-decoration: auto;
+    text-decoration: underline;
+    color: white;
+}
+
+#contato #button  {
+  padding-top: 10px;
+}
+
+/*menu*/
+#menu a {
+  text-decoration: unset;
+  color: black;
+  font-size: 18px;
+}

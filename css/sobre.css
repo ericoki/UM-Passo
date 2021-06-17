@@ -1,0 +1,119 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-sobre {
+    background-image: url(../assets/sobre-img1.svg);
+
+}
+
+
+.text-title-horizontal {
+    display: flex;
+    flex-direction: row;
+    width: 1097px;
+    padding-bottom: 125px;
+}
+
+
+.double-text-title-horizontal {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-title-img-horizontal h1 {
+    text-align: left;
+    width: 784px;
+    margin: unset
+}
+
+.text-title-img-horizontal{
+    display: flex;
+    flex-direction: row;
+}
+
+.text-title-img-horizontal img {
+    align-self: flex-start;
+}
+
+#sobre {
+    padding-bottom:80px;
+}
+
+#sobre .content-box>p {
+    padding: 125px 0 125px 0;
+}
+
+.double-img-collum {
+    padding-top: 30px;
+}
+
+.double-img-collum-text {
+    display: flex;
+    flex-direction: column;
+    width: 568px;
+    padding-top: 60px;
+}
+
+.double-img-collum-text p {
+    padding-bottom: 33px;
+}
+
+.content-box>p {
+    padding-bottom: 125px;
+}
+
+.text-center { /* NOME DE .content-box no styles.css*/
+    padding-top: 80px;
+    width: 568px;
+}
+
+#serviços {
+    padding-bottom: 80px;
+}
+
+
+
+#arquitetos {
+    padding-bottom: 125px;
+}
+
+
+#arquitetos h1 {
+    text-align: unset;
+    margin-bottom: 0;
+}
+
+#arquitetos p{
+    width: 286px;
+}
+
+#arquitetos h3 {
+    color: black;
+    padding-bottom: 8px;
+} 
+
+.formacao-arq {
+    padding-top: 25px;
+}
+
+.card-arquiteto {
+    display: flex;
+    flex-direction: column;
+    width: 193px;
+}
+
+.card-arquiteto p {
+    padding-top: 30px;
+}
+
+.title-arquitetos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+

@@ -1,0 +1,47 @@
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    width: auto;
+    height: 382px;
+  }
+  
+  #textos-img-footer {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 114px;
+    
+  }
+  
+  #footer p {
+    color: aliceblue;
+  }
+  
+  .paginas-footer a {
+    position: unset;
+    text-decoration: unset;
+    padding-right: 35px;
+    font-size: 24px; 
+  }
+  
+  .icones-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  
+  .icones-footer img {
+    padding: 25px 14px 0 0;
+  }
+  
+  .logo-img-footer img {
+    width: 150px;
+    height: 150px;
+    margin: 131px 76px 130px 0px;
+  }
+  
+  .celulares {
+    padding-top: 85px;
+  }
+  

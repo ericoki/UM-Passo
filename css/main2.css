@@ -1,0 +1,142 @@
+#main {
+    min-height: 100vh;
+    height: 1188px;
+    background-image: url(/eric-um-passo-main/assets/Sala.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+
+#quem-somos {
+    padding: 125px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-box {
+    width: 811px;
+    height: 212px;
+    align-items: center;
+}
+
+.somos-img-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 125px;
+    height: 200px;
+
+}
+
+/* | Cards | */
+
+#servicos {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0px;
+}
+
+#servicos>.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 338px;
+    height: 643px;
+
+}
+
+#servicos>.card>img {
+    width: 338px;
+    height: 307px;
+}
+
+#servicos>.card>h6 {
+    font-size: 25px;
+    text-align: center;
+}
+
+#servicos p {
+    margin: 63px 10px 0 10px;
+    text-align: center;
+}
+
+
+#projetos {
+    position: relative;
+}
+
+#projetos>img {
+    width: 100%;
+}
+
+#projetos>h3{
+    position: absolute;
+    top: 75px;
+    left: 114px;
+    color: white;
+    font-size: 40px;
+    width: 380px;
+}
+
+#projetos>a{
+    position: absolute;
+    bottom: 75px;
+    left: 114px;
+    color: white;
+    font-size: 30px;
+    text-decoration: underline;
+
+    transition: all 1s;
+}
+
+#projetos>a:hover{
+    text-decoration: none;
+} 
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    width: auto;
+    height: 382px;
+    }
+
+#textos-img-footer {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 114px;
+
+    }
+
+#footer p {
+    color: aliceblue;
+    }
+
+.paginas-footer a {
+    position: unset;
+    text-decoration: unset;
+    padding-right: 35px;
+    font-size: 24px; 
+    }
+
+.icones-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    }
+
+.icones-footer img {
+    padding: 25px 14px 0 0;
+    }
+
+.logo-img-footer img {
+    width: 150px;
+    height: 150px;
+    margin: 131px 76px 130px 0px;
+    }
+
+.celulares-footer {
+    padding-top: 85px;
+    }

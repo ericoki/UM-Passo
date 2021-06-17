@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@700&display=swap');
+
+/* ||TABLE OF CONTENTS||
+
+0. menu
+
+1. main img
+    1. style
+    2. content box center
+    3. img principal
+
+2. imgs
+    1.main img
+    2.img esquerda
+    3.cards
+
+3. components
+    1.footer 
+    2.buttons underlined
+
+
+*/
+
+
+
+/* || typography || */
+/* |style| */
+/* |img principal| */
+* {
+  margin:0;
+  padding: 0;
+  box-sizing:border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+.slideshow-container img {
+  width: 100%;
+}
+
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 46%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 35px;
+  margin: 0 2px;
+  background-image: url(../assets/elipse-vazia.svg);
+  /*border-radius: 50%;*/
+  /*display: inline-block;*/
+  transition: 0.6s ease;
+  background-repeat: no-repeat;
+}
+
+.active , .dot:hover {
+  background-image: url(../assets/elipse-cheia.svg);
+}
+
+.grupo-dots {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  /*text-align: center;*/
+  top: 88%;
+  justify-items: center;
+  width: 155px;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.grupo-dots2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+#home-main-img a {
+  bottom: unset;
+  left: unset;
+  appearance: unset;
+  text-decoration: unset;
+  font-family: unset;
+}
+
+
+/* || menu || */
+#menu a {
+  position: unset;
+}
+
+/* || main img || */
+
+#main-home {
+  background-image: url(../assets/home-img1.svg);
+}
+
+/* || quem somos || */
+
+#quem-somos {
+  margin-bottom: 80px;
+}
+
+#quem-somos .left-title-text { /* O valor desse padding soma ao do que tem no p*/
+  padding-bottom: 50px;
+}
+
+#projetos {
+  margin: 80px 0 0 0;
+  position: relative;
+}
+
+#projetos>img {
+  width: 100%;
+}
+
+#projetos h1 {
+  position: absolute;
+  left: 114px;
+  top: 50px;
+  width: 380px;
+  color: white;
+  text-align: left;
+  margin: 0 0 0 0;
+}
+
+a, a:visited {
+  font-family: 'Poppins';
+  position: absolute;
+  bottom: 50px;
+  left: 114px;
+  color: white;
+  font-size: 30px;
+}
+
+#contato {
+  width: auto;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  
+}
+
+#contato-text {
+  align-content: center;
+  margin: 0;
+
+}
+
+#contato-text h1 {
+  margin: 0;
+}
+
+#contato a {
+  color: black;
+  position: unset;
+  left: unset;
+  bottom: unset;
+  text-align: center;
+}
+
+
+
