@@ -87,13 +87,28 @@
 }
 
 #arquitetos p{
-    width: 286px;
+    width: unset;
+    font-size: 16px;
 }
 
 #arquitetos h3 {
     color: black;
-    padding-bottom: 8px;
+    padding-bottom: 25px;
 } 
+
+#arquitetos h3>span{
+    color: black;
+    font-family: 'Gayathri', sans-serif;
+    padding-bottom: 8px;
+    opacity: 65%;
+    font-size: 16px;
+} 
+
+#arquitetos hr {
+    width: 193px;
+    height: 3px;
+}
+
 
 .formacao-arq {
     padding-top: 25px;
