@@ -511,7 +511,7 @@ a, a:visited {
 @media (max-width: 478px) { 
 
 p {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 
@@ -545,7 +545,11 @@ p {
 }
 }
 
+/*Mínimo de tela*/
 
+@media (max-width: 232px) {
+
+}
 
 
 
