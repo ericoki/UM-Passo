@@ -507,3 +507,45 @@ a, a:visited {
     left: 10px;
   }
 }
+
+@media (max-width: 478px) { 
+
+p {
+  font-size: 18px;
+}
+
+
+/*Correção de margem*/
+.left-title-text h1 {
+  margin: 0 0 26px 35px;
+}
+
+.double-text-vertical p {
+  margin: 0 35px;
+}
+
+.legenda {
+  padding: 0 25px;
+}
+
+.legenda p {
+  margin: 0 35px;
+}
+
+.textos-img-footer {
+  padding: 30px 25px;
+}
+
+.text-colaborador img {
+  padding:0 25px 20px 0;
+}
+
+#main h1 {
+  left: 35px;
+}
+}
+
+
+
+
+
