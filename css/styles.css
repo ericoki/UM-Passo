@@ -509,13 +509,13 @@ a, a:visited {
 }
 
 @media (max-width: 478px) { 
-
+/*fontes*/
 p {
   font-size: 16px;
 }
 
 
-/*Correção de margem*/
+/*Correção de margem   10px-35px*/
 .left-title-text h1 {
   margin: 0 0 26px 35px;
 }
@@ -543,6 +543,23 @@ p {
 #main h1 {
   left: 35px;
 }
+}
+
+/*Correção de margem   60px-15px*/
+.text-title-block-center {
+  padding: 15px 0;
+}
+
+.double-img-collum>p {
+  padding-top: 15px;
+}
+
+.infos-direita-footer {
+  padding: 15px 0 0 0;
+}
+
+.celulares {
+  height: 15px;
 }
 
 /*Mínimo de tela*/
