@@ -76,7 +76,9 @@ p {
 }
 
 hr {
-  width: 566px;
+  max-width: 566px;
+  width: 50%;
+  min-width: 100px;
   margin: auto;
   height: 4px;
   background-color: black;
@@ -87,48 +89,69 @@ hr {
 .content-box { /* NOME DE .text-center sobre.css*/
     width: 811px;
     height: 150px;
+   
   }
 
 /*left-title-left*/
 
 .left-title-text h1 {
   text-align: unset;
-  margin-bottom: 26px;
+  margin: 0 0 26px 10px;
 }
 
 .left-title-text {
   display: flex;
   flex-direction: column;
-  width: 843px;
+  max-width: 843px;
+  
 }
 
 .double-text-vertical {
-  width: 568px;
+  max-width: 568px;
   align-self: center;
 }
 
 .double-text-vertical p {
   padding: 0 0 30px 0;
+  margin: 0 10px;
 }
 
 
 
 /* || box || */
 /* |main| */
-.main {
-    min-height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
+#main {
+    /*height: 100vh;
+    width: 100%;*/
+    /*background-repeat: no-repeat;
+    background-size: cover;*/
   }
 
+#main img {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
 
-.main h1 {/* LEMBRAR DE COLOCAR PARA TEXTO ACOMPANHAR ATÉ A PARTE DEBAIXO DA IMG DO MAIN*/
-    position: absolute;
-    left: 114px;
-    bottom:5vh;
-    margin: 0;
-    text-align: left;
-    color: white;
+#main h1 {/* LEMBRAR DE COLOCAR PARA TEXTO ACOMPANHAR ATÉ A PARTE DEBAIXO DA IMG DO MAIN*/
+  position: absolute;
+  left: 114px;
+  bottom: 10vh;
+  margin: 0;
+  text-align: left;
+  color: white;
+  
+}
+
+.title-main {
+ /* display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom:15vh;
+  margin: 100px;
+  text-align: left;
+  color: white;*/
+
 }
 
 /*Sliders*/
@@ -136,9 +159,12 @@ hr {
 
 
 .text-title-block-center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 835px;
+  margin: auto;
+  padding: 60px 0;
 }
 
 
@@ -162,6 +188,7 @@ hr {
     justify-content: space-evenly;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
   }
   .card {
     display: flex;
@@ -170,6 +197,7 @@ hr {
     width: 266px;
     height: 460px;
     box-shadow: 1px 10px 10px #DBDBDB ;
+    margin: 15px;
   }
 
   .card img {
@@ -186,6 +214,10 @@ hr {
     text-align: center;
     margin-top: 62px;
     margin-bottom: 6px;
+  }
+
+  #card-titulo-menor {
+
   }
 
   #card-titulo-menor h2 {
@@ -207,16 +239,26 @@ hr {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 843px;
+  max-width: 843px;
+  width: 100%;
+  padding: 0 10px;
+
 }
+.legenda p {
+  margin: 0 10px;
+  align-self: left;
+}
+
 
 .double-img-collum p>span {
   word-spacing: 40px;
 }
 
 .double-img-collum img {
-  width: 843px;
-  padding: 4px;
+  max-width: 843px;
+  width: 100%;
+  min-height: 268px;
+  object-fit: cover;
 }
 
 .double-img-collum>p {
@@ -245,29 +287,42 @@ hr {
   font-size: 18px;
 }
 
-.paginas-footer a {
-  padding-right: 30px;
+.paginas-footer {
+  width: 100%;
+  max-width: 835px;
+  justify-content: space-between;
+  text-align-last: justify;
 }
+
+.paginas-footer a {
+  /*padding: 15px;*/
+}
+
 
 .textos-img-footer {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-between;
-  padding: 30px 75px;
+  padding: 30px 10px;
 }
 
-/*infos esquerda footer*/
+/*infos esquerda footer*/ /*SÃO OS BOTOES DE NAV DO FOOTER*/
 .infos-esquerda-footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 100%;
+  align-items: center;
 }
 
 .block-sp {
   display: flex;
   flex-direction: row;
-  width: 164px;
+  min-width: 170px;
   justify-content: space-between;
   opacity: 75%;
+  align-self: center;
 }
 
 .block-sp-collum p{
@@ -279,12 +334,18 @@ hr {
   height: 37px;
 }
 
+.logo-img-footer {
+  align-self: center;
+}
 
-/*infos direita footer*/
+/*infos direita footer*/ /*FALE CONOSCO + COLABORADORES*/
 .infos-direita-footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 60px 0 30px 0;
+  max-width: 835px;
+  width: 100%;
 }
 
 .infos-direita-footer h3 {
@@ -340,6 +401,17 @@ hr {
   opacity: 75%;
 }
 
+#footer hr {
+  background-color: white;
+  opacity: 75%;
+  margin: 30px 0;
+  display: none;
+  align-self: center;
+  max-width: 566px;
+  width: 50%;
+  min-width: 100px;
+}
+
 /*colaboradores*/
 
 .colaboradores h3 {
@@ -378,6 +450,13 @@ hr {
   opacity: 75%;
 }
 
+/*ultimas infos footer*/ /*block SP + logo*/
+.infos-ultimas-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* |buttons underlined| */
 
 a, a:visited {
@@ -391,9 +470,40 @@ a, a:visited {
   padding-top: 10px;
 }
 
-/*menu*/
-#menu a {
-  text-decoration: unset;
-  color: black;
-  font-size: 18px;
+
+
+@media (max-width: 911px) {
+  .infos-direita-footer {
+    flex-direction: column;
+  }
+  .infos-direita-footer .vl-maior{
+    display: none;
+  }
+
+  #footer hr {
+    display: block;
+  }
+}
+
+@media (max-width: 592px) {
+  .legenda {
+    flex-direction: column;
+    margin-bottom: 45px;
+  }
+}
+
+@media (max-width: 538px) {
+
+
+  #footer a {
+    font-size: 14px;
+  }
+
+  #footer p {
+    font-size: 14px;
+  }
+
+  #main h1 {
+    left: 10px;
+  }
 }

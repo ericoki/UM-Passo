@@ -1,95 +1,112 @@
 
 .container {
-    padding: 250px 0 125px 0;
-    display: grid;
-    grid-template-columns: 255px 1fr;
-   /* grid-gap: 246px;*/
-   position: relative;
+  padding: 250px 0 125px 0;
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+ /* grid-gap: 246px;*/
+  margin: 0 auto;
+  max-width: 2277px;
+  width: 100%;
+  position: relative
 }
 
 .col-left {
-    position: sticky;
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    top: 100px;
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  top: 100px;
 }
 
 .col-left li a {
-    font-size: 21px;
+  font-size: 21px;
 }
 
+.col-left ul {
+  margin-left: 38px ;
+}
 .mini-menu-proj li { /*opacidade nos itens da lista*/
-    opacity: 50%;
+  opacity: 50%;
 }
 
 .mini-menu-proj li:hover {
-    opacity: 100%;
-    transition: 0.6s ease;
+  opacity: 100%;
+  transition: 0.6s ease;
 }
 
 .col-right {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .card-proj {
-    position: relative;
-    display: flex;
-    align-items: flex-end;
-    margin-bottom: 10px;
-    flex-direction: unset;
-    width: unset;
-    height: unset;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+  flex-direction: unset;
+  width: unset;
+  height: unset;
+}
+
+
+#proj-imgs img { /*Criado só para ajustar imagens dos projetos*/
+  width: 100%;
+  object-fit: cover;
+  /*max-height: 596px;*/
+  height: 596px;
 }
 
 .card-proj p {
-    font-size: unset;
+  font-size: unset;
 }
 
 .card-title {
-    width: 150px;
-    margin: 0 50px;
+  width: 150px;
+  margin: 0 50px;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-media {
-    position: relative;
-    /*height: 500px;
-    width: 1090px;*/
-    background-position: 0 0;
-    background-repeat: no-repeat;
+  position: relative;
+  /*height: 500px;
+  width: 1090px;*/
+  background-position: 0 0;
+  background-repeat: no-repeat;
 }
 /*
 .card-proj:nth-child(1) .card-media {
-    background-image: url("../assets/Apto\ Mokuzai.svg");
+  background-image: url("../assets/Apto\ Mokuzai.svg");
 }
 
 .card-proj:nth-child(2) .card-media {
-    background-image: url("../assets/Casa\ GU.svg");
+  background-image: url("../assets/Casa\ GU.svg");
 }
 
 .card-proj:nth-child(3) .card-media {
-    background-image: url("../assets/Hamburgueria.svg");
+  background-image: url("../assets/Hamburgueria.svg");
 }
 
 .card-proj:nth-child(4) .card-media {
-    background-image: url("../assets/Residência\ Beira.svg");
+  background-image: url("../assets/Residência\ Beira.svg");
 }
 
 .card-proj:nth-child(5) .card-media {
-    background-image: url("../assets/Residencia\ II.svg");
+  background-image: url("../assets/Residencia\ II.svg");
 }
 
 .card-proj:nth-child(6) .card-media {
-    background-image: url("../assets/Sushi\ Chiune.svg");
+  background-image: url("../assets/Sushi\ Chiune.svg");
 }
 */
 /*Textos*/
 
 
 .class-tittle p {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 
@@ -99,72 +116,72 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 900px;
-  position: relative;
-  margin: auto;
+max-width: 1090px;
+position: relative;
+margin: auto;
 }
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+display: none;
 }
 
 /* Next & previous buttons */
 .prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+margin-top: -22px;
+padding: 16px;
+color: white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+right: 0;
+border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+background-color: rgba(0,0,0,0.8);
 }
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+background-color: #717171;
 }
 
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+from {opacity: .4}
+to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+from {opacity: .4}
+to {opacity: 1}
 }
 
 
@@ -173,13 +190,49 @@
 
 /*Button*/
 a, a:visited {
-    appearance: none;
-    text-decoration: unset;
-    text-decoration: unset;
-    color: black;
+  appearance: none;
+  text-decoration: unset;
+  text-decoration: unset;
+  color: black;
 }
 
 #footer a{
-    color: white;
+  color: white;
 }
 
+
+
+@media (max-width: 1240px) {
+.col-left {
+  display: none;
+}
+.container {
+  grid-template-columns: unset;
+}
+
+.card-proj {
+  flex-direction: column-reverse;
+  align-items: unset;
+}
+.card-title {
+  margin: 0 0 70px 10px;
+  /*flex-direction: row;*/
+}
+
+.card-title br {
+  width: 100px;
+}
+
+
+}
+
+@media (max-width: 470px) {
+  #proj-imgs img {
+    height: 268px;
+    /*object-position: left;*/
+  }
+
+  .mySlides8 img{
+
+  }
+}

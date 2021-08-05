@@ -5,7 +5,7 @@
 }
 
 #main-sobre {
-    background-image: url(../assets/sobre-img1.jpg);
+    /*background-image: url(../assets/sobre-img1.jpg);*/
 
 }
 
@@ -67,7 +67,8 @@
 
 .text-center { /* NOME DE .content-box no styles.css*/
     padding-top: 80px;
-    width: 568px;
+    max-width: 568px;
+    align-self: center;
 }
 
 #serviços {
@@ -78,6 +79,10 @@
 
 #arquitetos {
     padding-bottom: 125px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 60px;
 }
 
 
@@ -127,8 +132,34 @@
 .title-arquitetos {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 48%;
 }
 
+@media (max-width: 953px) {
+    #arquitetos {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    #arquitetos>h1 {
+        text-align: center;
+    }
 
+    .title-arquitetos {
+        width: 100%;
+        flex-wrap: wrap;
+
+    }
+
+    .card-arquiteto {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 544px) {
+    .title-arquitetos {
+        flex-direction: column;
+        align-items: center;
+    }
+}

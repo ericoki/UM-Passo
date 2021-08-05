@@ -29,7 +29,8 @@
 .menu li a {
     display: block;
     text-align: center;
-    width: 150px;
+    width: 90px;
+    margin: 15px;
 }
 
 .menu li:nth-child(1) a {
@@ -61,4 +62,166 @@
     background-color: black;
     color: white;
     width: 100vw;
+}
+
+/*menu*/
+#menu a {
+    text-decoration: unset;
+    color: black;
+    font-size: 18px;
+  }
+
+.menu-toggle {                  
+   /* display: none;*/
+}
+
+/*@media (max-width: 760px) {
+.menu .logo {
+    width: 50px;
+}
+#menu #title img{
+    width: 154px;
+}
+
+.menu:hover #title {
+    left: 82px;
+}
+}*/
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+nav {
+    display: none;
+}
+
+.one, .two, .three {
+    background-color:black;
+    height: 4px;
+    width: 100%;
+    margin: 6px auto;
+
+    transition-duration: 0.3s;
+}
+
+.menu-toggle {
+    width: 35px;
+    height: 30px;
+   /* margin-right: 20px;*/
+   margin-top: 12px;
+   margin: 12px 0 0 0;
+  /* display: block;
+   cursor: pointer;*/
+}
+
+#menu a>span {
+display: none;
+}
+
+.menu-section nav {
+    display: none;
+}
+
+.menu:hover {
+    background-color: unset;
+}
+
+
+
+/*fullscreen*/
+.menu-section.on {
+position: absolute;
+top: 0;
+left: 0;
+width: 100vw;
+height: 100vh;
+background-color: white;
+z-index: 10;
+padding-top: 54px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.menu {           
+/*position: unset;*/
+overflow: unset;
+}
+
+.menu .menu-section.on {
+/*background-color: white;*/
+height: 100vh;
+/*position: sticky;*/
+padding: 0 10px;
+}   
+
+/*.menu:hover {
+    display: none;
+}*/
+
+/*.menu nav {
+    flex-direction: column;
+    align-items: center;
+}*/
+
+
+.menu-section.on nav{
+    display: block;
+   /*flex-direction: column;
+    align-items: center;*/
+    text-align: -webkit-center;
+
+}
+
+.menu-section.on .menu-toggle {
+    position:absolute;
+    right: 50px;
+    top: 15px;
+}
+
+
+.menu-section.on .menu-toggle .one {
+    transform: rotate(45deg) translate(7px, 7px);
+}
+
+.menu-section.on .menu-toggle .two {
+    opacity: 0;
+}
+.menu-section.on .menu-toggle .three {
+    transform: rotate(-45deg) translate(8px, -8px);
+} 
+
+
+.menu-section.on ul {
+    vertical-align: middle;
+    margin: 75px;
+}
+
+.menu-section.on li a {
+    width: 150px;
+}
+
+
+/* LOGO*/
+.menu .logo {
+    align-self: unset;
+    width: 50px;
+    height: unset;
+    z-index: 11;
+}
+
+
+}
+
+@media (max-width: 750px) {
+.menu {
+    padding: 20px 10px 0 10px;
+}
+
 }

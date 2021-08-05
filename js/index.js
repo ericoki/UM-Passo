@@ -13,3 +13,25 @@ window.addEventListener('scroll', function (evnt) {
     }
 })
 
+//const hamburger = document.querySelector(".menu-toggle");
+//const navMenu = document.querySelector(".menu-section");
+
+//hamburger.addEventListener("click", mobileMenu);
+
+//function mobileMenu() {
+   //hamburger.classList.toggle("on");
+    //navMenu.classList.toggle("on");
+
+
+let show = true;
+
+const menuSection = document.querySelector(".menu-section")
+const menuToggle = menuSection.querySelector(".menu-toggle")
+
+menuToggle.addEventListener("click", () => {
+
+    document.body.style.overflow = show ? "hidden" : "initial"
+
+    menuSection.classList.toggle("on", show)
+    show = !show;
+})

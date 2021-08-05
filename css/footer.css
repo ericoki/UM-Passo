@@ -5,13 +5,12 @@
     background-color: black;
     width: auto;
     height: 382px;
+    padding: 60px 114px;
   }
   
-  #textos-img-footer {
+  .textos-img-footer {
     display: flex;
-    flex-direction: column;
-    padding: 60px 114px;
-    
+    flex-direction: row;
   }
   
   #footer p {
@@ -45,3 +44,10 @@
     padding-top: 85px;
   }
   
+/*media queries*/
+
+@media (max-width: 1300px) {
+  .textos-img-footer {
+    flex-direction: column;
+  }
+}

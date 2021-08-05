@@ -49,6 +49,12 @@
   display: none;
 }
 
+.mySlides img {
+  height: 100vh;
+  object-fit: cover;
+  object-position: top;
+}
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -167,7 +173,7 @@
 /* || main img || */
 
 #main-home {
-  background-image: url(../assets/home-img1.svg);
+  /*background-image: url(../assets/home-img1.svg);*/
 }
 
 /* || quem somos || */
@@ -177,7 +183,7 @@
 }
 
 #quem-somos .left-title-text { /* O valor desse padding soma ao do que tem no p*/
-  padding-bottom: 50px;
+  /*padding-bottom: 50px;*/
 }
 
 #projetos {
@@ -187,13 +193,19 @@
 
 #projetos>img {
   width: 100%;
+  height: 1334px;
+  max-height: 398px;
+  object-fit: cover;
+  /*object-position: top;*/
 }
+
+
 
 #projetos h1 {
   position: absolute;
   left: 114px;
   top: 50px;
-  width: 380px;
+  width: 287px;
   color: white;
   text-align: left;
   margin: 0 0 0 0;
@@ -238,4 +250,16 @@ a, a:visited {
 }
 
 
+@media (max-width: 594px) {
+  #projetos img {
+    max-height: 100vh;
+  }
 
+  #projetos-text h1{
+    left: 10px;
+  }
+
+  #projetos a {
+    left: 10px;
+  }
+}
