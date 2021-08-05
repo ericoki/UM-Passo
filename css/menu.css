@@ -224,4 +224,8 @@ padding: 0 10px;
     padding: 20px 10px 0 10px;
 }
 
+.menu-section.on .menu-toggle {
+    right: 10px;
+}
+
 }
