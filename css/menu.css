@@ -99,9 +99,9 @@ nav {
     display: none;
 }
 
-.one, .two, .three {
+.one, .two, .three, .four {
     background-color:black;
-    height: 4px;
+    height: 2px;
     width: 100%;
     margin: 6px auto;
 
@@ -187,16 +187,19 @@ padding: 0 10px;
 
 
 .menu-section.on .menu-toggle .one {
-    transform: rotate(45deg) translate(7px, 7px);
-}
-
-.menu-section.on .menu-toggle .two {
-    opacity: 0;
-}
-.menu-section.on .menu-toggle .three {
-    transform: rotate(-45deg) translate(8px, -8px);
+    transform: rotate(-90deg) translate(-10px, 12px);
 } 
 
+.menu-section.on .menu-toggle .two {
+    transform: translate(0px, -11px);
+}
+.menu-section.on .menu-toggle .three {
+    transform: translate(0px, 7px);
+} 
+
+.menu-section.on .menu-toggle .four {
+    transform: rotate(-90deg) translate(14px, -12px);
+} 
 
 .menu-section.on ul {
     vertical-align: middle;
@@ -216,8 +219,6 @@ padding: 0 10px;
     z-index: 11;
 }
 
-
-}
 
 @media (max-width: 750px) {
 .menu {

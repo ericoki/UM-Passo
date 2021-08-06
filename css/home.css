@@ -50,7 +50,7 @@
 }
 
 .mySlides img {
-  height: 70vh;
+  height: 100vh;
   object-fit: cover;
   object-position: top;
 }
@@ -261,5 +261,9 @@ a, a:visited {
 
   #projetos a {
     left: 10px;
+  }
+
+  .mySlides img {
+    height: 70vh;
   }
 }
