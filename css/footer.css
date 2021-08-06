@@ -51,3 +51,21 @@
     flex-direction: column;
   }
 }
+
+
+
+@media (max-width: 413px) {
+  .logo-img-footer img {
+    width: 200px;
+  }
+
+  .text-colaborador img{
+    width: 10px;
+  }
+  
+  a img {
+  background-color: red;
+  color: brown;
+  }
+  
+}

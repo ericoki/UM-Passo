@@ -508,6 +508,15 @@ a, a:visited {
   }
 }
 
+@media (max-width: 565px) {
+h1 {
+  font-size: 30px;
+}
+
+}
+
+
+
 @media (max-width: 478px) { 
 /*fontes*/
 p {
