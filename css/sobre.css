@@ -123,10 +123,14 @@
     display: flex;
     flex-direction: column;
     width: 193px;
+    height: auto;
 }
 
 .card-arquiteto p {
     padding-top: 30px;
+}
+.card-arquiteto img {
+    object-fit: cover;
 }
 
 .title-arquitetos {
@@ -162,4 +166,30 @@
         flex-direction: column;
         align-items: center;
     }
+}
+
+@media (max-width: 425px) {
+
+    /*Imagem e título main*/
+    #main img{
+        display: none;
+    }
+
+    #main h1 {
+        color: black;
+        position: unset;
+        bottom: unset;
+        left: unset;
+        margin: 125px 0 26px 35px;
+    }
+
+    .double-img-collum .legenda {
+        display: none;
+    }
+
+    .double-img-collum img{
+        display: none;
+    }
+
+
 }

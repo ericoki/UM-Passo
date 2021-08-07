@@ -267,3 +267,18 @@ a, a:visited {
     height: 70vh;
   }
 }
+
+
+@media (max-width: 425px) {
+  .double-img-collum img {
+    display: none;
+  }
+
+  .legenda {
+    display: none;
+  }
+
+  #quem-somos {
+    margin-bottom: 15px;
+  }
+}

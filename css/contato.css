@@ -26,3 +26,14 @@ font-size: 30px;
 #contato #button {
     padding-bottom: 80px;
 }
+
+/*Footer responsivo sem elementos*/
+@media (max-width: 425px) {
+    .fale-conosco {
+        display: none;
+    }
+
+    .infos-direita-footer {
+        padding-top: 0;
+    }
+}
