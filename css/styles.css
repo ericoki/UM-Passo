@@ -510,7 +510,7 @@ a, a:visited {
 
 @media (max-width: 565px) {
 h1 {
-  font-size: 30px;
+  font-size: 26px;
 }
 
 }
@@ -519,8 +519,9 @@ h1 {
 
 @media (max-width: 478px) { 
 /*fontes*/
+
 p {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 
@@ -570,6 +571,10 @@ p {
 .celulares {
   height: 15px;
 }
+
+
+
+
 
 /*Mínimo de tela*/
 

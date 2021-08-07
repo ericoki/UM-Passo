@@ -169,6 +169,17 @@
 }
 
 @media (max-width: 425px) {
+    /*Fontes*/
+    h2 {
+    font-size: 17px;
+    }
+    
+    hr {
+        height: 2px;
+    }
+
+
+
 
     /*Imagem e título main*/
     #main img{
@@ -180,7 +191,7 @@
         position: unset;
         bottom: unset;
         left: unset;
-        margin: 125px 0 26px 35px;
+        margin: 125px 0 11px 35px;
     }
 
     .double-img-collum .legenda {
@@ -191,5 +202,64 @@
         display: none;
     }
 
+    /*Serviços*/
 
+    #serviços img{
+        width: 37vw;
+    }    
+    
+    #serviços h1 {
+    margin: 45px 0 35px 0;
+    }
+    #serviços h2 {
+    margin-bottom: 18px;
+    }
+
+    #serviços p {
+    text-align: center;
+    margin-top: 17px;
+    margin-bottom: 6px;
+    margin: 17px 7px 6px 7px;
+    font-size: 13px;
+    }
+
+    .card {
+        margin: unset;
+        width: 48vw;
+        height: 34vh;
+    }
+
+
+    #block-center-mob { /*Bloco de texto do text-title-block-center com correção de espaçamento*/
+        padding: 0;
+    }
+
+    #textblock-mob  { /*Bloco de texto do double-img-collum e text-title-block-center com correção de espaçamento*/
+        padding-top: 0;
+    }       
+
+    #sobre {
+        padding-bottom: 0;
+    }
+    #serviços {
+        padding-bottom: 45px;
+    }
+
+    #arquitetos {
+        margin-top: 0;
+        padding-bottom: 45px;
+    }
+
+    #arquitetos h1{
+        margin-top: 45px;
+    }
+
+
+
+}
+
+@media (max-width: 322px) {
+    .card {
+        height: 35vh;
+    }
 }

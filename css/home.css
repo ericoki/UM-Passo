@@ -241,6 +241,10 @@ a, a:visited {
   margin: 0;
 }
 
+#contato h1{
+  margin: 0 114px;
+}
+
 #contato a {
   color: black;
   position: unset;
@@ -270,15 +274,38 @@ a, a:visited {
 
 
 @media (max-width: 425px) {
-  .double-img-collum img {
-    display: none;
-  }
+.double-img-collum img {
+  display: none;
+}
 
-  .legenda {
-    display: none;
-  }
+.legenda {
+  display: none;
+}
 
-  #quem-somos {
-    margin-bottom: 15px;
-  }
+#quem-somos {
+  margin-bottom: 0;
+}
+
+#serviços {
+  display: none;
+}
+
+#projetos {
+  display: none;
+}
+
+#contato {
+  height: 188px;
+}
+
+#contato h1 {
+  margin: 0 35px;
+  font-size: 23px;
+}
+
+#contato a {
+  font-size: 20px;
+}
+
+
 }
