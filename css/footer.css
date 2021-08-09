@@ -1,4 +1,4 @@
-#footer {
+/*#footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -42,9 +42,256 @@
   
   .celulares {
     padding-top: 85px;
-  }
+  }*/
   
 /*media queries*/
+
+/* |footer| */
+
+#footer {
+  background-color: black;
+}
+
+#footer p, h3, h4 {
+  color: white;
+}
+
+#footer h2 {
+  font-family: 'Gayathri', sans-serif;
+}
+
+#footer a {
+  position: unset;
+  text-decoration: unset;
+  font-size: 18px;
+}
+
+.paginas-footer {
+  width: 100%;
+  max-width: 835px;
+  justify-content: space-between;
+  text-align-last: justify;
+}
+
+.paginas-footer a {
+  /*padding: 15px;*/
+}
+
+
+.textos-img-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 10px;
+}
+
+/*infos esquerda footer*/ /*SÃO OS BOTOES DE NAV DO FOOTER*/
+.infos-esquerda-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.block-sp {
+  display: flex;
+  flex-direction: row;
+  min-width: 170px;
+  justify-content: space-between;
+  opacity: 75%;
+  align-self: center;
+}
+
+.block-sp-collum p{
+  font-size: 12px;
+}
+
+.vl-menor {
+  border-left: 2px solid white;
+  height: 37px;
+}
+
+.logo-img-footer {
+  align-self: center;
+}
+
+/*infos direita footer*/ /*FALE CONOSCO + COLABORADORES*/
+.infos-direita-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 60px 0 30px 0;
+  max-width: 835px;
+  width: 100%;
+}
+
+.infos-direita-footer h3 {
+  padding-top: 10px;
+}
+
+/*fale conosco*/
+.fale-conosco {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  height: 280px;
+  align-content: center;
+}
+
+.icones-text {
+  display: flex;
+}
+
+.icones-text img{
+  padding-right: 15px;
+}
+
+.grupo-icones-text {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  align-content: center;
+  opacity: 75%;
+}
+
+.celulares {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  align-content: center;
+}
+
+.title-celulares {
+  opacity: 75%;
+}
+
+/*ícones*/
+
+.icon-btn {
+  width: 27px;
+  text-indent: -9999px;
+  margin-right: 11px;
+}
+
+
+#icon-face {
+    background-image: url(/assets/Facebook.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+}
+#icon-face:hover {
+    background-image: url(/assets/Facebook_EstadoHover.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+
+#icon-email {
+    background-image: url(/assets/Email.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    background-position: left;
+}
+#icon-email:hover {
+    background-image: url(/assets/Email_EstadoHover.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    background-position: left;
+}
+
+#icon-insta {
+    background-image: url(/assets/Insta.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+}
+#icon-insta:hover {
+    background-image: url(/assets/Insta_EstadoHover.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+
+
+
+/*linha vertical maior*/
+.vl-maior {
+  border-left: 3px solid white;
+  height: 308px;
+  margin: 0px 30px;
+  opacity: 75%;
+}
+
+.textos-img-footer hr{
+  background-color: white;
+  opacity: 75%;
+  margin: 30px 0;
+  display: none;
+  align-self: center;
+  max-width: 566px;
+  width: 44%;
+  min-width: 100px;
+}
+
+/*colaboradores*/
+
+.colaboradores h3 {
+  padding: 0 0 37px 0;
+}
+
+.info-colaborador {
+  display: flex;
+  flex-direction: row;
+
+}
+.logo-colaborador {
+  padding-right: 15px;
+}
+
+.logo-colaborador img {
+  width: 28px;
+}
+
+.sem-logo-colaborador {
+  width: 43px;
+}
+.text-colaborador p>span {
+  word-spacing: 15px;
+}
+
+.text-colaborador p{
+  padding-bottom: 10px;
+}
+
+.text-colaborador img {
+  padding:0 10px 20px 0;
+}
+
+.grupo-colaboradores {
+  opacity: 75%;
+}
+
+/*ultimas infos footer*/ /*block SP + logo*/
+.infos-ultimas-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+
+
 
 @media (max-width: 1300px) {
   .textos-img-footer {
@@ -52,9 +299,68 @@
   }
 }
 
+@media (max-width: 911px) {
+  .infos-direita-footer {
+    flex-direction: column;
+  }
+  .infos-direita-footer .vl-maior{
+    display: none;
+  }
+
+  #footer hr {
+    display: block;
+  }
+}
+
+@media (max-width: 538px) {
+
+  #footer a {
+    font-size: 14px;
+  }
+
+  #footer p {
+    font-size: 14px;
+  }
+}
+
 
 
 @media (max-width: 425px) {
+/*Fontes*/
+#footer p {
+  color: #848484;
+  font-size: 12px;
+}
+#footer hr {
+  color: #848484;
+}
+#footer a {
+  color: #848484;
+  font-size: 13px;
+}
+
+#footer-hr-web hr {
+  display: none;
+} 
+
+.textos-img-footer hr {
+max-width: 332px;
+margin: 9px 0 22px 0;
+}
+
+
+#hr-menor{
+max-width: 193px;
+width: 25%;
+min-width: unset;
+margin: 15px 0 0 0;
+}
+
+
+
+
+
+
   .logo-img-footer img {
     width: 200px;
   }
@@ -62,10 +368,109 @@
   .text-colaborador img{
     width: 10px;
   }
-  
-  a img {
-  background-color: red;
-  color: brown;
+
+  #footer {
+    margin: 15px;
+    background-color: #F6F6F6;
+  }
+
+  .textos-img-footer {
+    padding: 0 15px;
   }
   
+.fale-conosco {
+  height: 21px;
+}
+
+
+.fale-conosco h3 {
+  display: none;
+}
+
+.grupo-icones-text p {
+  display: none;
+}
+
+/*fale-conosco*/
+
+.fale-conosco h4 {
+  display: none;
+}
+
+.icones-text img {
+  width: 33px;
+}
+.grupo-icones-text {
+  flex-direction: row;
+}
+
+/*Celular inicial*/
+.celulares {
+  display: none;
+}
+
+
+/*Celular Mobile*/
+#celulares-mob p{
+  font-size: 10px;
+  text-align: center;
+}
+
+/*Icones*/
+.icon-btn {
+  width: 21px;
+  margin-right: unset;
+  height: 21px;
+}
+
+#icon-face {
+  background-image: url(/assets/Facebook_cinza.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+}
+#icon-email {
+  background-image: url(/assets/Email_cinza.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  background-position: left;
+}
+#icon-insta {
+  background-image: url(/assets/Insta_cinza.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+
+
+
+/*Colaboradores*/
+.colaboradores {
+  display: none;
+}
+
+
+
+/*São Paulo Interior e Capital Brasil*/
+.block-sp {
+  flex-direction: column;
+  text-align-last: center;
+}
+
+.block-sp .vl-menor{
+display: none;
+}
+
+.block-sp h3{
+font-size: 13px;
+color: black;
+}
+
+
+
+
+
+
 }
