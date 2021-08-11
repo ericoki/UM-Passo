@@ -187,18 +187,18 @@ padding: 0 10px;
 
 
 .menu-section.on .menu-toggle .one {
-    transform: rotate(-90deg) translate(-10px, 12px);
+    transform: rotate(-45deg) translate(1px, 3px);
 } 
 
 .menu-section.on .menu-toggle .two {
-    transform: translate(0px, -11px);
+    transform: rotate(45deg) translate(-2px, 0px);
 }
 .menu-section.on .menu-toggle .three {
     transform: translate(0px, 7px);
 } 
 
-.menu-section.on .menu-toggle .four {
-    transform: rotate(-90deg) translate(14px, -12px);
+/*.menu-section.on .menu-toggle .four {
+    transform: rotate(-90deg) translate(14px, -12px);*/
 } 
 
 .menu-section.on ul {
@@ -220,6 +220,7 @@ padding: 0 10px;
 }
 
 
+
 @media (max-width: 750px) {
 .menu {
     padding: 20px 10px 0 10px;
@@ -228,5 +229,18 @@ padding: 0 10px;
 .menu-section.on .menu-toggle {
     right: 10px;
 }
+
+}
+
+@media (max-width: 425px) {
+    .menu .logo {
+        align-self: center;
+        background-image: url("../assets/Logo-preto-completo.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        max-width: 107px;
+        width: 35%;
+        height: 71px;
+    }
 
 }

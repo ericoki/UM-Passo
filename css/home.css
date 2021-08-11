@@ -274,6 +274,21 @@ a, a:visited {
 
 
 @media (max-width: 425px) {
+hr {
+  display: none;
+}
+
+
+
+
+.text-title-block-center {
+  padding: unset;
+}
+
+#textblock-mob p {
+  padding: 0;
+}
+
 .double-img-collum img {
   display: none;
 }
@@ -295,7 +310,9 @@ a, a:visited {
 }
 
 #contato {
-  height: 188px;
+  height: 71px;
+  justify-content: unset;
+  align-items: flex-end;
 }
 
 #contato h1 {
@@ -304,8 +321,15 @@ a, a:visited {
 }
 
 #contato a {
-  font-size: 20px;
+  font-size: 17px;
+}
+#contato-text {
+  display: none;
 }
 
+#button {
+  padding: unset;
+  margin-right: 35px;
+}
 
 }

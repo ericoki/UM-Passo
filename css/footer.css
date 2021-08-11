@@ -114,7 +114,10 @@
 }
 
 .logo-img-footer {
-  align-self: center;
+  /*align-self: center;*/
+  background-image: url(/assets/umpasso-logo-completo.png);
+  width: 295px;
+  height: 125px;
 }
 
 /*infos direita footer*/ /*FALE CONOSCO + COLABORADORES*/
@@ -344,16 +347,36 @@
 } 
 
 .textos-img-footer hr {
-max-width: 332px;
-margin: 9px 0 22px 0;
+max-width: unset;
+min-width: unset;
+width: 47%;
+margin: unset;
 }
 
 
+
+.hr-mob {
+  margin: 15px 0 22px 0;
+  width: 119%;
+  height: 7px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+.hr-mob-i {
+  margin: 22px 0 15px 0;
+  width: 119%;
+  height: 7px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+
 #hr-menor{
-max-width: 193px;
+max-width: unset;
 width: 25%;
 min-width: unset;
-margin: 15px 0 0 0;
+/*margin: 15px 0 0 0;*/
 }
 
 
@@ -363,6 +386,16 @@ margin: 15px 0 0 0;
 
   .logo-img-footer img {
     width: 200px;
+  }
+  .logo-img-footer {
+    background-image: url(/assets/Logo-preto-completo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 75%;
+    background-position: center;
+    width: 99px;
+    height: 27px;
+    margin: 22px 0 22px 0;
   }
 
   .text-colaborador img{
@@ -380,6 +413,9 @@ margin: 15px 0 0 0;
   
 .fale-conosco {
   height: 21px;
+  width: 55%;
+  align-self: center;
+  min-width: 114px;
 }
 
 
@@ -411,6 +447,11 @@ margin: 15px 0 0 0;
 
 
 /*Celular Mobile*/
+
+
+#celulares-mob {
+ margin-bottom: 22px;
+}
 #celulares-mob p{
   font-size: 10px;
   text-align: center;
@@ -418,7 +459,7 @@ margin: 15px 0 0 0;
 
 /*Icones*/
 .icon-btn {
-  width: 21px;
+  width: 17px;
   margin-right: unset;
   height: 21px;
 }
@@ -443,7 +484,9 @@ margin: 15px 0 0 0;
   display: block;
 }
 
-
+.infos-direita-footer { /*Padding dos ícones*/
+  padding: 34px 0 22px 0;
+}
 
 
 /*Colaboradores*/
@@ -466,6 +509,9 @@ display: none;
 .block-sp h3{
 font-size: 13px;
 color: black;
+}
+.block-sp>h3{
+  padding-top: 5px;
 }
 
 

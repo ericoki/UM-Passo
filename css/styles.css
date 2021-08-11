@@ -369,6 +369,15 @@ h1 {
 }
 }
 
+/*Correção de margem dos blocos de texto*/
+#block-center-mob { /*Bloco de texto do text-title-block-center com correção de espaçamento*/
+  padding: 0;
+}
+
+#textblock-mob  { /*Bloco de texto do double-img-collum e text-title-block-center com correção de espaçamento*/
+  padding-top: 0;
+}    
+
 
 /*Mínimo de tela*/
 
