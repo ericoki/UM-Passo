@@ -242,5 +242,19 @@ padding: 0 10px;
         width: 35%;
         height: 71px;
     }
+    .menu-toggle {
+        width: 26px;
+    }
+    .one, .two, .three {
+        margin: 3px auto;
+    }
+    .menu:hover {
+        height: 110px;
+    }
 
+}
+@media (max-width: 231px) {
+    .menu-toggle {
+        margin-top: 8px;
+    }
 }
