@@ -36,4 +36,31 @@ font-size: 30px;
     .infos-direita-footer {
         padding-top: 0;
     }
+
+    #main img {
+        display: none;
+    }
+    #main h1 {
+        display: block;
+        color: black;
+        margin: 0;
+        text-align: center;
+        left: unset;
+        bottom: unset;
+        position: unset;
+    }
+
+
+    #contato {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
 }
