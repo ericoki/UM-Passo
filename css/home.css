@@ -19,6 +19,30 @@
     1.footer 
     2.buttons underlined
 
+    
+#menu li a {
+    display: block;
+    text-align: center;
+    width: 90px;
+    margin: 7px;
+    font-size: 13px;
+}
+
+#menu li:nth-child(1) a {
+    vertical-align: middle;
+    font-size: 17px;
+    /*line-height: 75px;*//*
+}
+.menu-section.on {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  z-index: 10;
+  padding-top: 152px;
+*/
 
 */
 
@@ -166,9 +190,7 @@
 
 
 /* || menu || */
-#menu a {
-  position: unset;
-}
+
 
 /* || main img || */
 
