@@ -332,9 +332,10 @@ hr {
 }
 
 #contato {
-  height: 71px;
+  height: auto;
   justify-content: unset;
   align-items: flex-end;
+  margin-bottom: 35px;
 }
 
 #contato h1 {

@@ -27,33 +27,84 @@ font-size: 30px;
     padding-bottom: 80px;
 }
 
+/*Responsivo desativado*/
+#cell-mob {
+    display: none;
+}
+
+#contato-mob {
+    display: none;
+}
+
+
+
+
+
 /*Footer responsivo sem elementos*/
 @media (max-width: 425px) {
-    .fale-conosco {
-        display: none;
-    }
+.fale-conosco {
+    display: none;
+}
 
-    .infos-direita-footer {
-        padding-top: 0;
-    }
+.infos-direita-footer {
+    padding-top: 0;
+}
 
-    #main img {
-        display: none;
-    }
-    #main h1 {
-        display: block;
-        color: black;
-        margin: 0;
-        text-align: center;
-        left: unset;
-        bottom: unset;
-        position: unset;
-    }
+#main img {
+    display: none;
+}
+#main h1 {
+    display: block;
+    color: black;
+    margin-top: 66px;
+    text-align: center;
+    left: unset;
+    bottom: unset;
+    position: unset;
+}
 
 
-    #contato {
-        display: none;
-    }
+#contato {
+    display: none;
+}
+
+.double-text-vertical:nth-child(1) br {
+    display: none;
+}
+
+/*Celulares no main*/
+
+.double-text-vertical {
+    align-self: flex-start;
+}
+
+#cell-mob {
+    display: block;
+}
+
+/*Contato com ícones*/
+
+#contato-mob {
+    display: block;
+    flex-direction: column;
+    opacity: 100%;
+    margin: 0 35px 20px 35px;
+    height: auto;
+}
+#contato-mob p {
+    display: block;
+}
+#contato-mob .icon-btn {
+    margin-right: 11px;
+}
+
+#contato-mob #icon-email {
+    height: 18px;
+}
+
+
+
+
 
 
 
