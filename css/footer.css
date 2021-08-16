@@ -231,6 +231,18 @@
     background-repeat: no-repeat;
     display: block;
 }
+#icon-web {
+    background-image: url(/assets/internet.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+}
+#icon-web:hover {
+    background-image: url(/assets/internet_hover.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+}
 
 
 

@@ -31,6 +31,12 @@
     width: 28px;
 }
 
+.grupo-icon {
+    display: flex;
+    flex-direction: row;
+}
+
+
 .logo-colaborador {
     margin-right: 15px;
 }
