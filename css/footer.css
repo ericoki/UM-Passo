@@ -70,7 +70,10 @@
   width: 100%;
   max-width: 835px;
   justify-content: space-between;
-  text-align-last: justify;
+ /* text-align-last: justify;*/
+ display: flex;
+ flex-direction: row;
+ text-align: center;
 }
 
 .paginas-footer a {

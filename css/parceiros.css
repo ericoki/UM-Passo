@@ -1,0 +1,72 @@
+#parceiros .colaboradores {
+    display: block;
+}
+
+
+/*Mobile #parceiros-mob*/
+
+#parceiros-mob {
+    display: flex;
+    flex-direction: row;
+    opacity: 100%;
+    margin: 0 35px 20px 35px;
+    height: auto;
+    justify-content: flex-start;
+}
+#parceiros-mob p {
+    display: block;
+}
+#parceiros-mob .icon-btn {
+    margin-right: 11px;
+}
+
+#parceiros-mob #icon-email {
+    height: 18px;
+}
+
+#parceiros-mob p>span {
+    word-spacing: 15px;
+}
+#parceiros-mob .logo-colaborador {
+    width: 28px;
+}
+
+.logo-colaborador {
+    margin-right: 15px;
+}
+
+/*Logos dos colaboradores*/
+#a-maquetaria-3d {
+    background-image: url(/assets/logo-a-maquetaria-3d.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+} 
+#ericoki {
+   /* background-image: url(/assets/Logo-preto.png);*/
+    background-size: contain;
+    background-repeat: no-repeat;
+} 
+#fbianchi {
+   /* background-image: url(/assets/Logo-preto.png);*/
+    background-size: contain;
+    background-repeat: no-repeat;
+} 
+#lj {
+    background-image: url(/assets/logo-lj.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+} 
+
+/*
+.icon-btn {
+    width: 17px;
+    margin-right: unset;
+    height: 21px;
+  }
+  
+  #icon-face {
+    background-image: url(/assets/Facebook_cinza.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+  }*/
