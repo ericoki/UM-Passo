@@ -2,6 +2,14 @@
     display: block;
 }
 
+.colaboradores {
+    align-self: center;
+    margin-top: 66px;
+
+}
+.colaboradores h3 {
+    color: black;
+}
 
 /*Mobile #parceiros-mob*/
 
