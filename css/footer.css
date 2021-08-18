@@ -462,6 +462,9 @@ min-width: unset;
   display: none;
 }
 
+
+
+
 /*fale-conosco*/
 
 .fale-conosco h4 {
@@ -550,9 +553,18 @@ color: black;
   padding-top: 5px;
 }
 
+}
 
 
+@media (max-width: 277px) {
+/*botoes pages footer*/
 
+.paginas-footer {
+  flex-direction: column;
+}
+.paginas-footer a{
+  margin: 4px 0;
+}
 
 
 }
