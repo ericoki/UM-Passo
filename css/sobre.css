@@ -122,6 +122,7 @@
 .card-arquiteto {
     display: flex;
     flex-direction: column;
+    flex-shrink: 0;                /*Ver se dá certo*/
     width: 193px;
     height: auto;
 }
@@ -130,7 +131,8 @@
     padding-top: 30px;
 }
 .card-arquiteto img {
-    object-fit: cover;
+    /*object-fit: cover;*/         /*No lugar do   flex-shrink: 0;*/ 
+    
 }
 
 .title-arquitetos {
@@ -169,7 +171,120 @@
 }
 
 @media (max-width: 425px) {
-    /*Fontes*/
+    /*Serviços Mobile*/
+    /* external css: flickity.css */
+
+/* external css: flickity.css */
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body { font-family: sans-serif; }
+  
+  .gallery {
+   /* background: #EEE;*/
+  }
+  
+  .gallery-cell {
+    width: 66%;
+    height: 311px;
+    margin-right: 10px;
+    /*background: #8C8;*/
+    box-shadow: 1px 10px 10px #DBDBDB ;
+    counter-increment: gallery-cell;
+
+    text-align: -webkit-center;
+  }
+  .gallery-cell p{
+    text-align: center;
+  }
+  
+  /* cell number */
+  .gallery-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(gallery-cell);
+  /*  line-height: 200px;
+    font-size: 80px;*/
+    color: white;
+  }
+
+  /*tamanho das imagens*/
+
+  .gallery-cell img {
+    height: 140px;
+  } 
+
+  /*margin em título menor*/
+  #cell-h2-menor h2 {
+    margin-bottom: 20px;
+    font-family: 'Gayathri', sans-serif;
+}
+
+  /* ---- previous/next buttons ---- */
+  
+  .flickity-prev-next-button {
+    display: none;
+  }
+
+    /* ---- page dots ---- */
+
+    .flickity-page-dots {
+        display: none;
+    }
+  
+    /*Margin do serviços-mob*/
+    #serviços-mob {
+        margin-bottom: 45px;
+        height: 330px;
+    }
+
+
+    /*sombra box*/
+/*
+  .main-gallery:nth-child(1) {
+    box-shadow: 1px 10px 10px #dbdbdb; 
+ }*/
+  
+  /* small buttons, no circle */ /*
+.flickity-prev-next-button {
+    width: 50px;
+    height: 50px;
+    background: transparent;
+  }
+
+/* arrow color */                      /*verificar*//*
+.flickity-prev-next-button .arrow {
+    fill: white;
+  }
+  .flickity-prev-next-button.no-svg {
+    color: white;
+  }
+  .flickity-prev-next-button:hover {
+    background: transparent;
+  }
+/* white circles */                      /*verificar*/     /*                
+
+.flickity-page-dots .dot {
+    width: 12px;
+    height: 12px;
+    opacity: 1;
+    background: transparent;
+    border: 2px solid white;
+  }
+  /* fill-in selected dot *//*
+  .flickity-page-dots .dot.is-selected {
+    background: white;
+  }
+
+
+
+
+
+
+
 
 
 
