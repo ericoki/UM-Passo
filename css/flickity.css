@@ -130,7 +130,7 @@ https://flickity.metafizzy.co
     background-image: url(/assets/circulo-off.svg);
     background-size: 7px;
 
-    border-radius: 50%;   /*mudar*/
+    border-radius: 0;   /*mudar*/
     opacity: 100%;
     cursor: pointer;
   }
@@ -142,8 +142,16 @@ https://flickity.metafizzy.co
   }
 
 
+  @media (max-width: 376px) {
+    .flickity-page-dots  {
+        bottom: -3px;
+    }
+  @media (max-width: 306px) {
+    .flickity-page-dots  {
+        bottom: -9px;
+    }
   @media (max-width: 287px) {
     .flickity-page-dots  {
-        bottom: -15px;
+        bottom: -20px;
     }
 }

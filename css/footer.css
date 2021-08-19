@@ -538,7 +538,7 @@ min-width: unset;
 /*São Paulo Interior e Capital Brasil*/
 .block-sp {
   flex-direction: column;
-  text-align-last: center;
+  text-align: center;
 }
 
 .block-sp .vl-menor{
