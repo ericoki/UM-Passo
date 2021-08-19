@@ -221,7 +221,7 @@ padding: 0 10px;
 }
 
 .menu {
-    padding: 20px 10px 0 10px;
+    padding: 20px 10px 0 19px;
 }
 
 
@@ -281,8 +281,8 @@ padding: 0 10px;
         background-image: url("../assets/Logo-preto-completo.png");
         background-repeat: no-repeat;
         background-size: contain;
-        max-width: 107px;
-        width: 35%;
+        max-width: 118px;
+        width: 43%;
         align-self: unset;
        /* width: 50px;*/
         height: 71px;
@@ -333,13 +333,17 @@ padding: 0 10px;
      
 
     }
-
+/*
     .menu {
         height: 66px;
         background-color: white;
+        position: fixed;            /*mudar*/
     }
-
-
+/*
+    .menu {
+        pointer-events: none;
+    }
+*/
 }
 @media (max-width: 231px) {
 
