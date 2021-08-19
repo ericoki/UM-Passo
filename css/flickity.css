@@ -124,7 +124,7 @@ https://flickity.metafizzy.co
   .flickity-page-dots .dot {
     display: inline-block;
     width: 10px;
-    height: 10px;
+    height: 13px;
     margin: 0 6px;
    /* background: #333;*/
     background-image: url(/assets/circulo-off.svg);
@@ -135,7 +135,15 @@ https://flickity.metafizzy.co
     cursor: pointer;
   }
   
+  
   .flickity-page-dots .dot.is-selected {
     background-image: url(/assets/circulo-on.svg);
     background-size: 8px;
   }
+
+
+  @media (max-width: 287px) {
+    .flickity-page-dots  {
+        bottom: -15px;
+    }
+}
