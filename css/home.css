@@ -320,6 +320,33 @@ a, a:visited {
 }
 
 
+/*legenda*/
+
+#home-imgs-mob .legenda {
+  display: flex;
+}
+
+.legenda {
+  padding: 0 10px;
+  margin: unset;
+  position: absolute;
+  bottom: 0;
+  z-index: 11;
+  background-color: white;
+  flex-direction: row;
+  height: 19vw;
+  justify-content: space-between;
+
+
+}
+.legenda p{
+  margin: 0;
+  font-size: 10px;
+
+}
+.legenda  p span{
+  margin-right: 10px;
+}
 
 
 /*||home-imgs-mob||*/
@@ -335,14 +362,18 @@ body { font-family: sans-serif; }
 
 .gallery {
   background: #EEE;
-  margin: 90px 10px 67px 10px;
+  margin: 90px 10px 0 10px;
 }
 
 .gallery-cell {
   width: 100%;
-  height: 100vw;
- /* background: #8C8;*/
+  height: 112vw;
+  background: white;
   counter-increment: gallery-cell;
+}
+.gallery-cell img{
+  width: 100%;
+  height: auto;
 }
 
 
@@ -386,7 +417,7 @@ hr {
 }
 
 #quem-somos {
-  margin-bottom: 0;
+margin: 96px 0 0 0;
 }
 
 #serviços {
