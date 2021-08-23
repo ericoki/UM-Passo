@@ -286,11 +286,45 @@ a, a:visited {
 }
 
 .flickity-button {
-  display: none;
+  display: block;
 }
 
 
 /*|||Nova versão sliders|||*/
+
+/*Botoes prev next*/
+/* Next & previous buttons */
+.prev, .next {
+    cursor: unset;
+    position: absolute;
+    top: 78%;
+    width: 8px;
+    height: 44px;
+    border-radius: 50%;
+    padding: unset;
+    margin-top: unset;
+    color: white;
+    font-weight: unset;
+    font-size: unset;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right *//*
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+   /* background-color: rgba(0,0,0,0.8);*/
+   color: white;
+  }
+
+  .flickity-prev-next-button {
+      top: 91%;
+  }
+
 
 
   
@@ -303,7 +337,7 @@ a, a:visited {
   }
   
   .flickity-button {
-    display: none;
+    display: block;
   }
   
   .flickity-page-dots {
@@ -462,13 +496,22 @@ margin: 0 0 0 0;
     padding: 0 35px 30px 35px;
 }
 
+}
 
 
 
-
-
-
-
-
-
+@media (max-width: 336px) { 
+.flickity-prev-next-button { /*setas prev e next*/
+    top: 87%;
+}
+}
+@media (max-width: 293px) { 
+.flickity-prev-next-button { /*setas prev e next*/
+    top: 80%;
+}
+}
+@media (max-width: 254px) { 
+.flickity-prev-next-button { /*setas prev e next*/
+    top: 73%;
+}
 }
