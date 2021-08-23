@@ -252,11 +252,23 @@ a, a:visited {
     display: none;
   }
 
+#proj-galeria {
+    display: none;
+}
+
+.text-title-block-center {
+    padding-bottom: 0;
+}
+
+
+
 
 /*|||MOBILE|||*/
 
 
 @media (max-width: 594px) {
+
+
   #projetos img {
     max-height: 100vh;
   }
@@ -276,6 +288,14 @@ a, a:visited {
 
 
 @media (max-width: 425px) {
+
+#titulo-proj-indiv {
+    display: none;
+}
+    
+#proj-galeria {
+    display: block;
+}    
 
 #home-main-img {
   display: none;
@@ -501,6 +521,9 @@ margin: 0 0 0 0;
 }
 
 }
+
+
+
 
 
 

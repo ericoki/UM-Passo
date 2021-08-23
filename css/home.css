@@ -450,10 +450,10 @@ hr {
 .text-title-block-center {
   padding: unset;
 }
-
+/*
 #textblock-mob p {
   padding: 0;
-}
+}*/
 
 .double-img-collum img {
   display: none;
