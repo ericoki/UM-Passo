@@ -289,6 +289,10 @@ a, a:visited {
   display: block;
 }
 
+#proj-galeria .galeria img {
+    padding-bottom: 2px;
+}
+
 
 /*|||Nova versão sliders|||*/
 
