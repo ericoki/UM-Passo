@@ -11,15 +11,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/flickity.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/projetos.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
 
-    <title>Projetos Residenciais | UM Passo</title>
+    <title>Projetos da UM Passo</title>
 </head>
 
 <body>
-
+   
     <div id="menu" class="menu">
         <a href="index.html" class="logo">
         </a>
@@ -28,6 +30,9 @@
         <div class="menu-section ">
             <nav>
                 <ul>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+                <ul>
                     <li><a href="projetos.html">Projetos</a></li>
                     <li><a href="projetos-residencial.html">Residencial</a></li>
                     <li><a href="projetos-comercial.html">Comercial</a></li>
@@ -35,6 +40,9 @@
                 </ul>
                 <ul>
                     <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+                <ul>
+                    <li><a href="parceiros.html">Parceiros</a></li>
                 </ul>
                 <ul>
                     <li><a href="contato.html">Contato</a></li>
@@ -48,216 +56,274 @@
         </div>
        
     </div>
-    
-    <div class="container">
-        <div class="col-left">
-            <ul>
-                <div class="mini-menu-proj">
-                    <li><a href="projetos.html">Projetos</a></li>
-                </div>
-                    <li><a href="projetos-residencial.html">Residencial</a></li>
-                <div class="mini-menu-proj">    
-                    <li><a href="projetos-comercial.html">Comercial</a></li>
-                    <li><a href="projetos-concursos.html">Concursos</a></li>
-                </div>
-            </ul>
-        </div>
-        
-        <div class="col-right">
-            <div class="card-proj">
-                <div class="card-title">
-                    <p>Apto Mokuzai</p> <br> Residencial <br>
-                    84m² <br>
-                    Campinas SP <br></div>
-                    
-                <div class="card-media">
-                    <div class="slideshow-container">
-                        <div class="mySlides1">
-                            <div class="numbertext">1 / 4</div>
-                            <img src="assets/Apto Mokuzai1.jpg" style="width:100%">
-                        </div>
-                      
-                        <div class="mySlides1">
-                            <div class="numbertext">2 / 4</div>
-                            <img src="assets/Apto Mokuzai2.jpg" style="width:100%">
-                        </div>
-                      
-                        <div class="mySlides1">
-                            <div class="numbertext">3 / 4</div>
-                            <img src="assets/Apto Mokuzai3.jpg" style="width:100%">
-                        </div>
 
-                        <div class="mySlides1">
-                            <div class="numbertext">4 / 4</div>
-                            <img src="assets/Apto Mokuzai4.jpg" style="width:100%">
-                        </div>
-                      
-                        <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-                        <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
-                      </div>
+
+    <section id="projetos-mob">
+        <!--Muxarabi-->
+        <div id="home-imgs-mob">
+            <div class="gallery js-flickity"
+            data-flickity-options='{ "wrapAround": true }'>
+                <div class="gallery-cell">
+                    <a href="proj-muxarabi.html">
+                        <img src="/assets/mob-Muxarabi1.jpg" alt="">
+                    </a>
                 </div>
+
+    
+    
+              </div>
+              <div class="legenda">
+                <p>Residência Muxarabi</p>
+                <br>
+                <div class="legenda-local-ano">
+                    <p>Cotia SP</p>
+                    <p>2021</p>
+                </div>
+    
+            </div>
+        
+        </div>
+
+        <!--Casa Clareira-->
+        <div id="home-imgs-mob">
+            <div class="gallery js-flickity"
+            data-flickity-options='{ "wrapAround": true }'>
+                <div class="gallery-cell">
+                    <a href="proj-casaclareira.html">
+                        <img src="/assets/mob-CasaClareira4.jpg" alt="">
+                    </a>
+                </div>
+
+    
+    
+              </div>
+              <div class="legenda">
+                <p>Casa Clareira</p>
+                <br>
+                <div class="legenda-local-ano">
+                    <p>Guaíra SP</p>
+                    <p>2021</p>
+                </div>
+    
+            </div>
+        
+        </div>
+        <!--Apartamento Mokuzai-->
+        <div id="home-imgs-mob">
+            <div class="gallery js-flickity"
+            data-flickity-options='{ "wrapAround": true }'>
+                <div class="gallery-cell">
+                    <a href="proj-aptomokuzai.html">
+                        <img src="/assets/mob-Mokuzai1.jpg" alt="">
+                    </a>
+                </div>
+
+    
+    
+              </div>
+              <div class="legenda">
+                <p>Apartamento Mokuzai</p>
+                <br>
+                <div class="legenda-local-ano">
+                    <p>Campinas SP</p>
+                    <p>2021</p>
+                </div>
+    
+            </div>
+        
+        </div>
+
+
+
+        <!--Projetos Casas GU-->
+        <div id="home-imgs-mob">
+            <div class="gallery js-flickity"
+            data-flickity-options='{ "wrapAround": true }'>
+                <div class="gallery-cell">
+                    <a href="proj-casasgu.html">
+                        <img src="/assets/mob-CasasGU1.jpg" alt="">
+                    </a>
+                </div>
+
+    
+    
+                </div>
+                <div class="legenda">
+                <p>Projetos Casas GU</p>
+                <br>
+                <div class="legenda-local-ano">
+                    <p>Guaíra SP</p>
+                    <p>2020</p>
+                </div>
+    
+            </div>
+        
+        </div>
+        <!--Residência II Volumes-->
+        <div id="home-imgs-mob">
+            <div class="gallery js-flickity"
+            data-flickity-options='{ "wrapAround": true }'>
+                <div class="gallery-cell">
+                    <a href="proj-residenciaiivolumes.html">
+                        <img src="/assets/mob-ResidenciaIIVolumes1.jpg" alt="">
+                    </a>
+                </div>
+
+    
+    
+              </div>
+              <div class="legenda">
+                <p>Residência II Volumes</p>
+                <br>
+                <div class="legenda-local-ano">
+                    <p>Guaíra SP</p>
+                    <p>2020</p>
+                </div>
+    
+            </div>
+        
+        </div>
+        <!--Residência Beira ao Rio-->
+        <div id="home-imgs-mob">
+            <div class="gallery js-flickity"
+            data-flickity-options='{ "wrapAround": true }'>
+                <div class="gallery-cell">
+                    <a href="proj-residenciabeiraaorio.html">
+                        <img src="/assets/mob-ResidênciaBeiraaoRio1.jpg" alt="">
+                    </a>
+                </div>
+
+    
+    
+              </div>
+              <div class="legenda">
+                <p>Residência Beira ao Rio</p>
+                <br>
+                <div class="legenda-local-ano">
+                    <p>Guaíra SP</p>
+                    <p>2020</p>
+                </div>
+    
+            </div>
+        
+        </div>
+
+
+
+
+
+
+
+
+    </section>
+
+
+    
+    <div id="proj-imgs">
+        <div class="container">
+            <div class="col-left">
+                <ul>
+                    <div class="mini-menu-proj">
+                    <li><a href="projetos.html">Projetos</a></li>
+                    </div>
+                        <li><a href="projetos-residencial.html">Residencial</a></li>
+                    <div class="mini-menu-proj">
+                        <li><a href="projetos-comercial.html">Comercial</a></li>
+                        <li><a href="projetos-concursos.html">Concursos</a></li>
+                    </div>
+                </ul>
             </div>
             
-            <div class="card-proj">
-                <div class="card-title">
-                    <p>Casa GU-01</p> <br> Residencial <br>
-                    210m² <br>
-                    São Paulo <br></div>
-                    
-                <div class="card-media">
-                    <div class="slideshow-container">
-                        <div class="mySlides2">
-                            <div class="numbertext">1 / 4</div>
-                            <img src="assets/Casa GU-011.jpg" style="width:100%">
-                        </div>
-                      
-                        <div class="mySlides2">
-                            <div class="numbertext">2 / 4</div>
-                            <img src="assets/Casa GU-012.jpg" style="width:100%">
-                        </div>
-                      
-                        <div class="mySlides2">
-                            <div class="numbertext">3 / 4</div>
-                            <img src="assets/Casa GU-013.jpg" style="width:100%">
-                        </div>
-
-                        <div class="mySlides2">
-                            <div class="numbertext">4 / 4</div>
-                            <img src="assets/Casa GU-014.jpg" style="width:100%">
-                        </div>
-                      
-                        <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
-                        <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
-                      </div>
+            <div class="col-right">
+                <!--Residência Muxarabi-->
+                <div class="card-proj">
+                    <div class="card-title">
+                        <p>Residência Muxarabi</p> <br> Residencial <br>
+                        8080m² <br>
+                        Cotia SP</div>
+                    <div class="card-media">
+                        <a href="proj-muxarabi.html">
+                            <img src="/assets/main-muxarabi1.png" alt="">
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="card-proj">
-                <div class="card-title">
-                    <p>Casa GU-02</p> <br> Residencial <br>
-                    285m² <br>
-                    São Paulo <br></div>
-                    
-                <div class="card-media">
-                    <div class="slideshow-container">
-                        <div class="mySlides3">
-                            <div class="numbertext">1 / 4</div>
-                            <img src="assets/Casa GU-021.jpg" style="width:100%">
-                        </div>
-                      
-                        <div class="mySlides3">
-                            <div class="numbertext">2 / 4</div>
-                            <img src="assets/Casa GU-022.jpg" style="width:100%">
-                        </div>
-                      
-                        <div class="mySlides3">
-                            <div class="numbertext">3 / 4</div>
-                            <img src="assets/Casa GU-023.jpg" style="width:100%">
-                        </div>
-
-                        <div class="mySlides3">
-                            <div class="numbertext">4 / 4</div>
-                            <img src="assets/Casa GU-024.jpg" style="width:100%">
-                        </div>
-                      
-                        <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
-                        <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
-                      </div>
+                <!--Casa Clareira-->
+                <div class="card-proj">
+                    <div class="card-title">
+                        <p>Casa Clareira</p> <br> Residencial <br>
+                        8080m² <br>
+                        Guaíra SP <br> 2021</div>
+                        
+                    <div class="card-media">
+                        <a href="proj-casaclareira.html">
+                            <img src="/assets/main-casaclareira2.jpg" alt="">
+                        </a>
+                        
+                    </div>
                 </div>
-            </div>
-            <div class="card-proj">
-                <div class="card-title">
-                    <p>Residência Beira ao Rio</p> <br> Residencial <br>
-                    640m² <br>
-                    Guaíra SP <br></div>
-                <div class="card-media">
-                    <div class="slideshow-container">
-                        <div class="mySlides4">
-                            <div class="numbertext">1 / 3</div>
-                            <img src="assets/Residência Beira1.jpg" style="width:100%">
-                        </div>
-                      
-                        <div class="mySlides4">
-                            <div class="numbertext">2 / 3</div>
-                            <img src="assets/Residência Beira2.jpg" style="width:100%">
-                        </div>
-                      
-                        <div class="mySlides4">
-                            <div class="numbertext">3 / 3</div>
-                            <img src="assets/Residência Beira3.jpg" style="width:100%">
-                        </div>
-
-                        <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
-                        <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
-                      </div>
+                <!--Apto Mokuzai-->
+                <div class="card-proj">
+                    <div class="card-title">
+                        <p>Apto Mokuzai</p> <br> Residencial <br>
+                        84m² <br>
+                        Campinas SP <br> 2021</div>
+                        
+                    <div class="card-media">
+                        <a href="proj-aptomokuzai.html">
+                            <img src="/assets/main-mokuzai3.jpg" alt="">
+                        </a>
+                        
+                    </div>
                 </div>
-            </div>
-            <div class="card-proj">
-                <div class="card-title">
-                    <p>Residencia II Volumes
-                    </p> <br> Residencial <br>
-                    560m² <br>
-                    Cotia SP <br></div>
-                <div class="card-media">
-                    <div class="slideshow-container">
-                        <div class="mySlides5">
-                            <div class="numbertext">1 / 4</div>
-                            <img src="assets/Residencia II1.jpg" style="width:100%">
-                        </div>
-                      
-                        <div class="mySlides5">
-                            <div class="numbertext">2 / 4</div>
-                            <img src="assets/Residencia II2.jpg" style="width:100%">
-                        </div>
-                      
-                        <div class="mySlides5">
-                            <div class="numbertext">3 / 4</div>
-                            <img src="assets/Residencia II3.jpg" style="width:100%">
-                        </div>
-
-                        <div class="mySlides5">
-                            <div class="numbertext">4 / 4</div>
-                            <img src="assets/Residencia II4.jpg" style="width:100%">
-                        </div>
-                      
-                        <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
-                        <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
-                      </div>
+                <!--Casas GU-->
+                <div class="card-proj">
+                    <div class="card-title">
+                        <p>Casas GU</p> <br> Residencial <br>
+                        8080m² <br>
+                        Guaíra SP <br> 2020</div>
+                        
+                    <div class="card-media">
+                        <a href="proj-casasgu.html">
+                            <img src="/assets/main-casasgu1.jpg" alt="">
+                        </a>
+                        
+                    </div>
                 </div>
-            </div>
-            <div class="card-proj">
-                <div class="card-title">
-                    <p>Residência Muxarabi</p> <br> Residencial <br>
-                    565m² <br>
-                    Cotia SP</div>
-                <div class="card-media">
-                    <div class="slideshow-container">
-                        <div class="mySlides6">
-                            <div class="numbertext">1 / 4</div>
-                            <img src="assets/Muxarabi1.jpg" style="width:100%">
-                        </div>
-                      
-                        <div class="mySlides6">
-                            <div class="numbertext">2 / 4</div>
-                            <img src="assets/Muxarabi2.jpg" style="width:100%">
-                        </div>
-                      
-                        <div class="mySlides6">
-                            <div class="numbertext">3 / 4</div>
-                            <img src="assets/Muxarabi3.jpg" style="width:100%">
-                        </div>
-
-                        <div class="mySlides6">
-                            <div class="numbertext">4 / 4</div>
-                            <img src="assets/Muxarabi4.jpg" style="width:100%">
-                        </div>
-
-                        <a class="prev" onclick="plusSlides(-1, 5)">&#10094;</a>
-                        <a class="next" onclick="plusSlides(1, 5)">&#10095;</a>
-                      </div>
+                <!--Residencia II Volumes-->
+                <div class="card-proj">
+                    <div class="card-title">
+                        <p>Residencia II Volumes
+                        </p> <br> Residencial <br>
+                        560m² <br>
+                        Guaíra SP <br> 2020</div>
+                    <div class="card-media">
+                        <a href="proj-residenciaiivolumes.html">
+                            <img src="/assets/main-iivolumes5.jpg" alt="">
+                        </a>
+                    </div>
                 </div>
+                <!--Residência Beira ao Rio-->
+                <div class="card-proj">
+                    <div class="card-title">
+                        <p>Residência Beira ao Rio</p> <br> Residencial <br>
+                        640m² <br>
+                        Guaíra SP <br> 2020</div>
+                    <div class="card-media">
+                        <a href="proj-residenciabeiraaorio.html">
+                            <img src="/assets/main-beira3.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+
+
+
+
+
             </div>
         </div>
     </div>
+   
     <section id="footer">
         
         <div class="textos-img-footer">
@@ -291,7 +357,7 @@
                           <div class="icon-btn">
                               <a href="https://www.facebook.com/ArquiteturaUmPasso" target="_blank" rel="external" id="icon-face"> Facebook UM Passo<!--  <img src="assets/Facebook.svg" alt="Facebook"> --></a>
                           </div>
-                          <p>/umpasso.arquitetura</p>
+                          <p>/ArquiteturaUmPasso</p>
                       </div>
                       <div class="icones-text">
                           <div class="icon-btn">
@@ -368,8 +434,13 @@
       
 
   </section>
+
+
+
+    
     <script src="js/projetos.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/flickity.js"></script>
 </body>
 
 </html>
