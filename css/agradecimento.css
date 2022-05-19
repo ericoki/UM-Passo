@@ -1,0 +1,52 @@
+/*<img src="assets/Logo-preto-completo.png" alt="Imagem de Projeto">
+url("../assets/Logo-preto-completo.png")*/
+
+
+#main {
+    margin: 0 35px;
+   /* flex-direction: column;
+    align-items: center;
+    display: flex;*/
+}
+
+#logo-agradecimento{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+#logo-agradecimento img {
+    display: block;
+    width: 71%;
+    height: auto;
+    margin-top: 90px;
+}
+#main h1 {
+    text-align: left;
+    font-size: 25px;
+    margin-top: 42px;
+
+}
+#main h2 {
+    text-align: left;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+#main h2>span {
+    text-decoration-line: underline; 
+    text-transform: unset;
+    font-family: 'Gayathri', sans-serif;
+}
+
+#main h3 {
+    font-size: 13px;
+    text-align: left;
+    display: block;
+    color: black;
+    left: unset;
+    bottom: unset;
+    position: unset;
+    font-family: 'Gayathri', sans-serif;
+    padding-bottom: 30px;
+}
